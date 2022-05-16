@@ -4,8 +4,8 @@ gen:
 remove:
 	rm proto/*.go	
 
-run server:
+server:
 	go run server/server.go
 
-run client:
+client:
 	go run client/client.go
