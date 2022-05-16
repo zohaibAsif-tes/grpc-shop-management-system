@@ -1,12 +1,12 @@
-Step 1: command to run server:
+-Command to run server:
 	
-	make server
+	make run-server
 	
-Step 2: command to run client:
+-Command to run client:
 	
-	make client
+	make run-client
 	
-A simple grpc service that takes customer's name and list of products as request and generates a bill as a response.
+-A simple grpc service that takes customer's name and list of products as request and generates a bill as a response.
 
 generateBill---------------------------------request-----------------------------------
 {
