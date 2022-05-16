@@ -17,17 +17,6 @@ message Product {
     float price = 2;
     string description = 3;
 }
-
-message ProductRequest {
-    Product product = 1;
-}
-
-message ProductResponse{
-    int32 id = 1;
-    Product product = 2;
-    string created_at = 3;
-    string deleted_at = 4;
-}
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
 /*-BILL---------------------------------------------------------------------------------------------------------------------------*/
@@ -53,6 +42,5 @@ message BillResponse{
 service shopManagementService{
     //unary services
     rpc GenerateBill(BillRequest) returns (BillResponse) {};
-    rpc AddProduct(ProductRequest) returns (ProductResponse) {};
 }
 /*--------------------------------------------------------------------------------------------------------------------------------*/
