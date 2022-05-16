@@ -29,7 +29,7 @@ func main() {
 	//sending request to server and getting response from server
 	g.POST("/generateBill", func(ctx *gin.Context) {
 
-		ctx.Writer.Header().Set("Content-Type", "application/json")
+		ctx.Header("Content-Type", "application/json")
 
 		bill := &proto.BillRequest{}
 
