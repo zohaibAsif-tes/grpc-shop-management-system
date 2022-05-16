@@ -25,3 +25,11 @@ Step 6: to get all the missing packages use:
 	go mod tidy
 	
 	this will automatically get all the missing packages. 	
+
+Step 7: command to run server:
+	
+	make run server
+	
+Step 8: command to run client:
+	
+	make run client
