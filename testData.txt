@@ -1,3 +1,5 @@
+http://localhost:8080/generateBill
+
 generateBill---------------------------------request-----------------------------------
 {
     "bill": {
